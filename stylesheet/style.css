@@ -3,7 +3,7 @@
 *{
     box-sizing:border-box;
     font-family:Arial, Helvetica, sans-serif;
-     background-image: url("../images/background.jpeg");
+    /*background-image: url("../images/background.jpeg");*/
 }
  
  /*  getting rid of the white space and making the background fill the entire image  */
