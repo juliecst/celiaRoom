@@ -66,6 +66,8 @@
     max-width: 900 px;
     padding: 0;
     margin: 0 auto; 
+    line-height: 1.5;
+    color: #777;
    
 }
 
@@ -78,13 +80,16 @@
 .section-header {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center; 
-    font-size: 2.5em;
-    
+    font-size: 2.5em; 
+}
+
+.side-text {
+    margin: -10px 25px;
 }
 .bathtub{
     float: right;
-    height: 50%;
-    width: 50%;
+    height: 60%;
+    width: 60%;
     margin: 20px;
     
 }
@@ -117,11 +122,12 @@
     text-align:end;
 }
 .footer-nav li{
-    padding:0 .5em;
+    padding:0 0.5em;
 }
 .footer-nav img{
     width:30px;
     height:30px;
+    border-radius: 20% 20%;
 }
 
 
