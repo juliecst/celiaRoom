@@ -1,16 +1,22 @@
 /* for large text*/
-
+@font-face {
+    font-family: OurFavFont;
+    src: url(SpecialElite.ttf);
+}
 *{
     box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
-    /*background-image: url("../images/background.jpeg");*/
+    font-family: 'Courier New', Courier, monospace;
+    
 }
+
+
  
  /*  getting rid of the white space and making the background fill the entire image  */
 
  html, body {
     margin: 0; 
     padding: 0;
+    font-family: OurFavFont;
  }
  /*there was still a tiny bit left at the ul element so set the margin to 0 here too */
 
@@ -53,6 +59,7 @@
     text-align: center;
     margin: 0;
     font-size: 6em;
+    
 }
 .piece-name-large {
     font-size: 7em;
@@ -78,7 +85,6 @@
 }
 
 .section-header {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center; 
     font-size: 2.5em; 
 }
