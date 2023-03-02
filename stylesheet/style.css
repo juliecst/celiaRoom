@@ -1,16 +1,10 @@
-/* for large text*/
-@font-face {
-    font-family: OurFavFont;
-    src: url(SpecialElite.ttf);
-}
+/*first thing for everything*/
 *{
     box-sizing:border-box;
     font-family: 'Courier New', Courier, monospace;
     
 }
 
-
- 
  /*  getting rid of the white space and making the background fill the entire image  */
 
  html, body {
@@ -30,17 +24,19 @@
     /* space out the header elements from each other */
     display: inline-block;
     padding: .5em;
-    color: rgba(215, 42, 128);
+    color: rgb(237, 48, 104);
+    background-color:rgb(170, 209, 243)
  }
  .main-nav{
     text-align:center;
     font-size: 1.1 em; 
-    font-weight:lighter;
-    border-bottom: 1px solid rgba(215, 215, 128);
+    font-weight:900;
+   
  }
 
  .main-nav li {
     padding: 6% 5%
+
  }
 
  .nav a:hover{
@@ -48,25 +44,27 @@
  }
 
  .main-header {
-    background-image: url("../images/soft_electric.jpg");
+    background-image: url("../images/backgroundHead.jpeg");
     background-size: cover;
-    padding-bottom: 3px;
-    color:#13add4;
     background-blend-mode: difference;
+    padding:15px
 }
 
 .piece-name{
     text-align: center;
     margin: 0;
     font-size: 6em;
+    color:#f0ff00;
     
 }
 .piece-name-large {
     font-size: 7em;
+    color:#f0ff00;
 }
 .sub-name {
     text-align:center;
     font-size: 5em;
+    color:#f0ff00;
 }
 
 .container{
@@ -74,13 +72,14 @@
     padding: 0;
     margin: 0 auto; 
     line-height: 1.5;
-    color: #777;
+    color:#f0ff00;
+    background-image: url("../images/backgroundYim.jpeg");
    
 }
 
 .content-section{
-    margin:1em;
     text-align: right;
+  
     
 }
 
@@ -110,13 +109,13 @@
 
 /*-----------------footer--------------*/
 .main-footer{
-    background-color: rgba(225, 92, 158, 0.316);
-    background-image: url("images/soft_electric.jpg");
-    background-blend-mode: multiply;
+    background-color: rgba(228, 224, 237, 0.316);
+    background-image: url("../images/backgroundFooter.png");
+    background-blend-mode: difference;
     color: white;
     padding: .25;
     background-size:cover;
-    padding-bottom:10px;
+    padding-bottom:150px;
 
 }
 .main-footer-container {
@@ -125,7 +124,7 @@
 }
 .main-footer-container ul{
     flex-grow:1;
-    text-align:end;
+    text-align:center;
 }
 .footer-nav li{
     padding:0 0.5em;
