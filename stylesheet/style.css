@@ -10,7 +10,6 @@
  html, body {
     margin: 0; 
     padding: 0;
-    font-family: OurFavFont;
  }
  /*there was still a tiny bit left at the ul element so set the margin to 0 here too */
 
