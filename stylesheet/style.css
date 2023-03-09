@@ -1,4 +1,7 @@
-/*first thing for everything*/
+/* I used the tutorials from Web Dev Simplified ( https://www.youtube.com/watch?v=1PnVor36_40&list=PLZlA0Gpn_vH-cEDOofOujFIknfZZpIk3a&index=7) to get more familiar with css as well as W3schools for html and css*/
+
+
+/*first general baseline styling*/
 *{
     box-sizing:border-box;
     font-family: 'Courier New', Courier, monospace;
@@ -12,7 +15,7 @@
     padding: 0;
  }
  /*there was still a tiny bit left at the ul element so set the margin to 0 here too */
-
+/*-----------------header--------------*/
  .nav ul{
     margin:0; 
  }
@@ -34,8 +37,7 @@
  }
 
  .main-nav li {
-    padding: 6% 5%
-
+    padding: 6% 5%;
  }
 
  .nav a:hover{
@@ -53,8 +55,7 @@
     text-align: center;
     margin: 0;
     font-size: 6em;
-    color:#f0ff00;
-    
+    color:#f0ff00; 
 }
 .piece-name-large {
     font-size: 7em;
@@ -65,7 +66,7 @@
     font-size: 5em;
     color:#f0ff00;
 }
-
+/*-----------------main part--------------*/
 .container{
     max-width: 900 px;
     padding: 0;
@@ -73,13 +74,10 @@
     line-height: 1.5;
     color:#f0ff00;
     background-image: url("../images/backgroundYim.jpeg");
-   
 }
 
 .content-section{
     text-align: right;
-  
-    
 }
 
 .section-header {
@@ -97,12 +95,18 @@
     margin: 20px;
     
 }
-.about-image{
+.pos-image{
     float: left;
     height: 200px;
     width: 200px;
     margin: 20px;
     border-radius: 50% 20%;
+}
+
+.about-poem{
+    color:rgb(66, 56, 66);
+    font-weight:400;
+    font-weight: bolder;
 }
 
 
