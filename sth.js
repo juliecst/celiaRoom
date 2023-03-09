@@ -1,5 +1,6 @@
 
   function goRandomSite() {
+    //random site when click on 'next door'
     var sites = [
         'http://www.dilbert.com',
         'http://stackoverflow.com',
